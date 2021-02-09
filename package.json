@@ -1,14 +1,10 @@
 {
-  "name": "snowpack-sample",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
-  "author": "iemong",
-  "license": "MIT",
   "devDependencies": {
-    "snowpack": "^3.0.11"
+    "snowpack": "^3.0.1"
   }
 }

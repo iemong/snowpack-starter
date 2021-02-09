@@ -1,4 +1,5 @@
 # dependencies
+.snowpack
 /node_modules
 /.pnp
 .pnp.js
