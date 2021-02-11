@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import logo from './../assets/images/logo.svg';
-import './../assets/styles/App.css';
+import logo from '~/assets/images/logo.svg';
+import '~/assets/styles/App.css'
 
 const App = () => {
   const [count, setCount] = useState(0);
