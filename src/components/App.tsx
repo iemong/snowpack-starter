@@ -14,9 +14,13 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} alt="logo" className="App-logo" />
-        <p>
-          Page has been open for <code>{count}</code> seconds.
-        </p>
+        <div className="flex">
+          <p>
+            Page has been open for <code>{count}</code> seconds.
+          </p>
+          <p>hoge fuga piyo</p>
+        </div>
+
       </header>
     </div>
   );
