@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import logo from "~/assets/images/logo.svg"
 import styles from "./style.module.css"
 
-const App = () => {
+const App = (): JSX.Element => {
   const [count, setCount] = useState(0)
 
   useEffect(() => {
