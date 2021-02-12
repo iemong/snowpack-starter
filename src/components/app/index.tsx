@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import logo from '~/assets/images/logo.svg';
-import  styles from './style.module.css'
+import React, { useState, useEffect } from "react"
+import logo from "~/assets/images/logo.svg"
+import styles from "./style.module.css"
 
 const App = () => {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0)
 
   useEffect(() => {
-    const timer = setTimeout(() => setCount(count + 1), 1000);
-    return () => clearTimeout(timer);
-  }, [count, setCount]);
+    const timer = setTimeout(() => setCount(count + 1), 1000)
+    return () => clearTimeout(timer)
+  }, [count, setCount])
 
   return (
     <div className={styles.App}>
@@ -20,10 +20,9 @@ const App = () => {
           </p>
           <p>hoge fuga piyo</p>
         </div>
-
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
