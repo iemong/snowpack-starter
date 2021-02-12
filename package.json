@@ -2,6 +2,7 @@
   "scripts": {
     "dev": "snowpack dev",
     "build": "snowpack build",
+    "lint": "eslint --ext .tsx,.ts --ignore-path .gitignore .",
     "prettier": "npx prettier --write ."
   },
   "devDependencies": {
@@ -11,8 +12,11 @@
     "@types/react": "^17.0.1",
     "@types/react-dom": "^17.0.0",
     "@types/snowpack-env": "^2.3.3",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
     "eslint": "^7.19.0",
     "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "postcss": "^8.2.6",
     "postcss-cli": "^8.3.1",
@@ -25,5 +29,6 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-  }
+  },
+  "license": "MIT"
 }
