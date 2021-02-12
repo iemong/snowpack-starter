@@ -2,8 +2,10 @@
   text-align: center;
 }
 
-.App p {
-  margin: 0.4rem;
+.App {
+  & p {
+    margin: 0.4rem;
+  }
 }
 
 .AppLogo {
