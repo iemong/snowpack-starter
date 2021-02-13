@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react"
-import logo from "~/assets/images/logo.svg"
-import styles from "./style.module.css"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import Home from "~/components/pages/home"
+import About from "~/components/pages/about"
+import Users from "~/components/pages/users"
 
 const App = (): JSX.Element => {
   const [count, setCount] = useState(0)
@@ -11,17 +13,19 @@ const App = (): JSX.Element => {
   }, [count, setCount])
 
   return (
-    <div className={styles.App}>
-      <header className={styles.AppHeader}>
-        <img src={logo} alt="logo" className={styles.AppLogo} />
-        <div className="flex">
-          <p>
-            Page has been open for <code>{count}</code> seconds.
-          </p>
-          <p>hoge fuga piyo</p>
-        </div>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/users">
+          <Users />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
   )
 }
 
