@@ -1,6 +1,4 @@
-.StorybookButton {
-  @apply inline-block font-bold cursor-pointer border-none	rounded-3xl leading-none;
-
+.Button {
   &[data-type="primary"] {
     @apply text-white	bg-blue-400;
   }

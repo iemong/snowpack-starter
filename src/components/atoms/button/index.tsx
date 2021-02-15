@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./style.module.css"
 
-export type ButtonProps = {
+export type Props = {
   type: "primary" | "secondary"
   backgroundColor?: string
   size?: "small" | "medium" | "large"
@@ -9,16 +9,16 @@ export type ButtonProps = {
   onClick?: () => void
 }
 
-export const Button: React.FC<ButtonProps> = ({
+export const Button: React.FC<Props> = ({
   type = "primary",
   size = "medium",
   backgroundColor,
   label,
   ...props
-}: ButtonProps) => (
+}: Props) => (
   <button
     type="button"
-    className={styles.StorybookButton}
+    className={`${styles.Button} inline-block font-bold cursor-pointer border-none	rounded-3xl leading-none`}
     style={{ backgroundColor }}
     data-type={type}
     data-size={size}
