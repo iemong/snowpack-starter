@@ -1,0 +1,18 @@
+.StorybookButton {
+  @apply inline-block font-bold cursor-pointer border-none	rounded-3xl leading-none;
+}
+.StorybookButtonPrimary {
+  @apply text-white	bg-blue-400;
+}
+.StorybookButtonSecondary {
+  @apply text-gray-500	bg-transparent shadow-inner;
+}
+.StorybookButtonSmall {
+  @apply text-xs px-4 py-2 
+}
+.StorybookButtonMedium {
+  @apply text-sm px-5 py-3 
+}
+.StorybookButtonLarge {
+  @apply text-base px-6 py-3 
+}

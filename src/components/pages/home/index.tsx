@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import logo from "~/assets/images/logo.svg"
+import { Button } from "~/components/atoms/button"
 import styles from "./style.module.css"
 
 const Home = (): JSX.Element => {
@@ -27,6 +28,7 @@ const Home = (): JSX.Element => {
         <div>
           <Link to="about">about page</Link>
         </div>
+        <Button primary={true} label={'button'}></Button>
       </header>
     </div>
   )
