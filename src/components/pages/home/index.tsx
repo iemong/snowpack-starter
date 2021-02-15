@@ -28,7 +28,7 @@ const Home = (): JSX.Element => {
         <div>
           <Link to="about">about page</Link>
         </div>
-        <Button primary={true} label={'button'}></Button>
+        <Button type={'primary'} label={'button'}/>
       </header>
     </div>
   )
