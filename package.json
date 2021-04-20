@@ -3,7 +3,8 @@
     "dev": "snowpack dev",
     "build": "snowpack build",
     "lint": "eslint --ext .tsx,.ts --ignore-path .gitignore .",
-    "prettier": "npx prettier --write ."
+    "prettier": "npx prettier --write .",
+    "test": "echo 'test'"
   },
   "devDependencies": {
     "@babel/core": "7.13.16",
