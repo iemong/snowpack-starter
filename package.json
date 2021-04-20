@@ -4,13 +4,14 @@
     "build": "snowpack build",
     "lint": "eslint --ext .tsx,.ts --ignore-path .gitignore .",
     "prettier": "npx prettier --write .",
-    "test": "echo 'test'"
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "7.13.16",
     "@snowpack/plugin-postcss": "1.1.0",
     "@snowpack/plugin-react-refresh": "2.4.0",
     "@snowpack/plugin-typescript": "1.2.1",
+    "@types/jest": "^26.0.22",
     "@types/react": "17.0.1",
     "@types/react-dom": "17.0.0",
     "@types/react-router-dom": "5.1.7",
@@ -23,6 +24,7 @@
     "eslint-config-prettier": "7.2.0",
     "eslint-plugin-react": "7.22.0",
     "eslint-plugin-react-hooks": "4.2.0",
+    "jest": "^26.6.3",
     "postcss": "8.2.6",
     "postcss-cli": "8.3.1",
     "postcss-preset-env": "6.7.0",
@@ -30,6 +32,7 @@
     "react-router-dom": "5.2.0",
     "snowpack": "3.0.11",
     "tailwindcss": "2.0.3",
+    "ts-jest": "^26.5.5",
     "typescript": "4.1.5"
   },
   "dependencies": {
