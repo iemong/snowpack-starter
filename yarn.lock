@@ -920,10 +920,10 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.1.tgz#18845205e86ff0038517aab7a18a62a6b9f71275"
   integrity sha512-EaCxbanVeyxDRTQBkdLb3Bvl/HK7PBK6UJjsSixB0iHKoWxE5uu2Q/DgtpOhPIojN0Zl1whvOd7PoHs2P0s5eA==
 
-"@types/snowpack-env@2.3.6":
-  version "2.3.6"
-  resolved "https://registry.yarnpkg.com/@types/snowpack-env/-/snowpack-env-2.3.6.tgz#c2388efe3c3c770517e496eec98113096cca7308"
-  integrity sha512-7bRZJ9vALbyRvOi4LlWqOcIejv5ts5D70d/p7W03QOhSBK+UeBgG0gbex2SsSIXEUcX6Na6C2cx2ITniXccUFA==
+"@types/snowpack-env@2.3.7":
+  version "2.3.7"
+  resolved "https://registry.yarnpkg.com/@types/snowpack-env/-/snowpack-env-2.3.7.tgz#f1e724d25379cbf8fb600da31fc0f94adc4c71dc"
+  integrity sha512-wL9fOmBGB6vf9vGgwbMR39okoQbkHZEz7GgDq87rjbAyRdTAsuD9jYDC2Oo3SCYMXg9d1nXHVdUjQo5lgNbLCw==
 
 "@typescript-eslint/eslint-plugin@4.33.0":
   version "4.33.0"
