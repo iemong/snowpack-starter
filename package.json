@@ -11,8 +11,8 @@
     "@snowpack/plugin-postcss": "1.4.3",
     "@snowpack/plugin-react-refresh": "2.5.0",
     "@snowpack/plugin-typescript": "1.2.1",
-    "@types/react": "17.0.65",
-    "@types/react-dom": "17.0.20",
+    "@types/react": "19.0.1",
+    "@types/react-dom": "19.0.1",
     "@types/react-router-dom": "5.3.3",
     "@types/snowpack-env": "2.3.7",
     "@typescript-eslint/eslint-plugin": "4.33.0",
@@ -21,7 +21,7 @@
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.10.0",
     "eslint-plugin-react": "7.34.1",
-    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-hooks": "5.1.0",
     "postcss": "8.4.38",
     "postcss-cli": "8.3.1",
     "postcss-preset-env": "7.0.1",
@@ -32,8 +32,8 @@
     "typescript": "4.9.5"
   },
   "dependencies": {
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "license": "MIT"
 }
